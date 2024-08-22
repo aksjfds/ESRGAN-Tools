@@ -2,6 +2,7 @@ import cv2
 import torch
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
+import matplotlib.pyplot as plt
 
 # 自定义数据集类
 class VideoDataset(Dataset):
